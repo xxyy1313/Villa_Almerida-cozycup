@@ -3,47 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
     <title>CozyCup Café</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="img/logo.png" alt="CozyCup Café Logo">
-            </div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="home" class="hero">
-        <h1>Welcome to CozyCup Café</h1>
-        <p>Discover Your Perfect Brew</p>
-        <a href="#menu" class="cta-button">Explore Menu</a>
-    </section>
+<header class="header">
+    <nav class="nav container">
+        <div class="logo">
+            <img src="img/logo.png" alt="CozyCup Café Logo">
+            <span>CozyCup</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <section id="menu" class="menu">
-        <h2>Our Menu</h2>
-        <!-- Add menu items here -->
-    </section>
 
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>Discover the story behind CozyCup Café...</p>
-    </section>
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Cozy Moments, Perfect Brews</h1>
+        <p>Your daily dose of comfort and coffee</p>
+        <a href="#menu" class="btn">View Menu</a>
+    </div>
+</section>
 
-    <section id="contact" class="contact">
+<section id="menu" class="menu container">
+    <h2>Our Menu</h2>
+
+    <div class="menu-grid">
+        <div class="menu-card">
+            <img src="img/espresso.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>Rich & bold classic coffee</p>
+            <span>₱120</span>
+        </div>
+
+        <div class="menu-card">
+            <img src="img/cappuccino.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>Creamy milk with strong coffee</p>
+            <span>₱150</span>
+        </div>
+
+        <div class="menu-card">
+            <img src="img/latte.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>Smooth & comforting flavor</p>
+            <span>₱160</span>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+        <h2>About CozyCup</h2>
+        <p>
+            CozyCup Café is a warm and welcoming space where every cup is brewed
+            with care. Coffee is not just a drink — it’s an experience.
+        </p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
         <h2>Contact Us</h2>
-        <p>Have questions or feedback? Reach out to us...</p>
-    </section>
+        <p>Email: cozycup@email.com</p>
+        <p>📍 Puerto Princesa City</p>
+    </div>
+</section>
 
-    <footer>
-        <p>&copy; 2023 CozyCup Café. All rights reserved.</p>
-    </footer>
+<footer class="footer">
+    <p>&copy; 2026 CozyCup Café. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
